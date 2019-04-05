@@ -1,1 +1,1 @@
-# camel-kafka-strems
+# camel-kafka-streams

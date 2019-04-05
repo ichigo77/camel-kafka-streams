@@ -26,7 +26,7 @@ public class HelloWorldComponentTest extends CamelTestSupport {
     @Test
     public void testHelloWorld() throws Exception {
         MockEndpoint mock = getMockEndpoint("mock:result");
-        mock.expectedMinimumMessageCount(1);       
+        mock.expectedMinimumMessageCount(1);
         
         assertMockEndpointsSatisfied();
     }
